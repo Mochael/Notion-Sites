@@ -1,100 +1,139 @@
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/stocks-usa/" rel="noopener" target="_blank"><span class="blue-text">Stock quotes</span></a> by TradingView</div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrencies</span></a> by TradingView</div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
   {
-  "title": "Stocks",
   "width": 770,
   "height": 450,
-  "locale": "en",
-  "showSymbolLogo": true,
   "symbolsGroups": [
     {
-      "name": "Financial",
+      "name": "Indices",
+      "originalName": "Indices",
       "symbols": [
         {
-          "name": "NYSE:JPM",
-          "displayName": "Jpmorgan Chase & Co"
+          "name": "FOREXCOM:SPXUSD",
+          "displayName": "S&P 500"
         },
         {
-          "name": "NYSE:WFC",
-          "displayName": "Wells Fargo Co New"
+          "name": "FOREXCOM:NSXUSD",
+          "displayName": "US 100"
         },
         {
-          "name": "NYSE:BAC",
-          "displayName": "Bank Amer Corp"
+          "name": "FOREXCOM:DJI",
+          "displayName": "Dow 30"
         },
         {
-          "name": "NYSE:HSBC",
-          "displayName": "Hsbc Hldgs Plc"
+          "name": "FOREXCOM:UKXGBP",
+          "displayName": "UK 100"
         },
         {
-          "name": "NYSE:C",
-          "displayName": "Citigroup Inc"
+          "name": "AMEX:ARKK",
+          "displayName": "ARK Tech ETF"
         },
         {
-          "name": "NYSE:MA",
-          "displayName": "Mastercard Incorporated"
+          "name": "TVC:NI225",
+          "displayName": "Japanese Nikkei 225"
+        },
+        {
+          "name": "INDEX:DEU40",
+          "displayName": "German DAX Index"
         }
       ]
     },
     {
-      "name": "Technology",
+      "name": "Futures",
+      "originalName": "Futures",
       "symbols": [
         {
-          "name": "NASDAQ:AAPL",
-          "displayName": "Apple"
+          "name": "CME_MINI:ES1!",
+          "displayName": "S&P 500"
         },
         {
-          "name": "NASDAQ:GOOGL",
-          "displayName": "Google Inc"
+          "name": "CME:6E1!",
+          "displayName": "Euro"
         },
         {
-          "name": "NASDAQ:MSFT",
-          "displayName": "Microsoft Corp"
+          "name": "COMEX:GC1!",
+          "displayName": "Gold"
         },
         {
-          "name": "NASDAQ:FB",
-          "displayName": "Meta Platforms, Inc"
+          "name": "NYMEX:CL1!",
+          "displayName": "Crude Oil"
         },
         {
-          "name": "NYSE:ORCL",
-          "displayName": "Oracle Corp"
+          "name": "NYMEX:NG1!",
+          "displayName": "Natural Gas"
         },
         {
-          "name": "NASDAQ:INTC",
-          "displayName": "Intel Corp"
+          "name": "CBOT:ZC1!",
+          "displayName": "Corn"
         }
       ]
     },
     {
-      "name": "Services",
+      "name": "Bonds",
+      "originalName": "Bonds",
       "symbols": [
         {
-          "name": "NASDAQ:AMZN",
-          "displayName": "Amazon Com Inc"
+          "name": "CME:GE1!",
+          "displayName": "Eurodollar"
         },
         {
-          "name": "NYSE:BABA",
-          "displayName": "Alibaba Group Hldg Ltd"
+          "name": "CBOT:ZB1!",
+          "displayName": "T-Bond"
         },
         {
-          "name": "NYSE:T",
-          "displayName": "At&t Inc"
+          "name": "EUREX:FGBM1!",
+          "displayName": "Euro BOBL"
         },
         {
-          "name": "NYSE:WMT",
-          "displayName": "Wal-mart Stores Inc"
+          "name": "TVC:US30Y",
+          "displayName": "US 30 Yr Bond Yields"
         },
         {
-          "name": "NYSE:V",
-          "displayName": "Visa Inc"
+          "name": "TVC:US01Y",
+          "displayName": "US 1 Yr Bond Yields"
+        }
+      ]
+    },
+    {
+      "name": "Forex",
+      "originalName": "Forex",
+      "symbols": [
+        {
+          "name": "FX:EURUSD",
+          "displayName": "EUR/USD"
+        },
+        {
+          "name": "FX:GBPUSD",
+          "displayName": "GBP/USD"
+        },
+        {
+          "name": "FX_IDC:CNYUSD",
+          "displayName": "CNY/USD"
+        }
+      ]
+    },
+    {
+      "name": "Cryptocurrencies",
+      "symbols": [
+        {
+          "name": "BITSTAMP:BTCUSD"
+        },
+        {
+          "name": "BITSTAMP:ETHUSD"
+        },
+        {
+          "name": "BITSTAMP:SOLUSD"
         }
       ]
     }
   ],
-  "colorTheme": "light"
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "isTransparent": false,
+  "locale": "en"
 }
   </script>
 </div>
